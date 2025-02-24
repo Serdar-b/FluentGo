@@ -1,14 +1,8 @@
+"use client";
 import React from "react";
 import Flashcard from "../../components/Flashcard";
 import BackButton from "../../components/BackButton";
-
-const words = [
-  { word: "Merhaba", translation: "Hello" },
-  { word: "Teşekkürler", translation: "Thank you" },
-  { word: "Evet", translation: "Yes" },
-  { word: "Hayır", translation: "No" },
-  { word: "Lütfen", translation: "Please" },
-];
+import { words } from "@/constants/turkishwords";
 
 const FlashcardsPage = () => {
   return (
